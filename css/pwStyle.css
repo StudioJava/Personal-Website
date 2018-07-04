@@ -8,6 +8,11 @@ html * {
 	box-sizing: border-box;
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
 }
+body {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
 
 header {
 	padding: 32px;
@@ -20,17 +25,6 @@ img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
-}
-
-footer {
-	padding: 20px 30px;
-	background-color: #dbecf1;
-}
-
-body {
-	margin-left: auto;
-	margin-right: auto;
-	
 }
 
 .style-logo {
@@ -142,8 +136,8 @@ p {
 	text-decoration: none;
 }
 .info-box-one,.info-box-two {
-	min-height: 400px;
-	border-radius: 5px;
+	min-height: 500px;
+	
 	box-shadow: 0 0 9px 0px black;
 }
 .info-box-one {
@@ -241,6 +235,10 @@ button:hover {
 .main-nav {
 	display: none;
 }
+footer {
+	padding: 20px 30px;
+	background-color: #dbecf1;
+}
 /***********************thirds BOXES*/
 .third-box {
 	letter-spacing: 2px;
@@ -335,6 +333,6 @@ button:hover {
 		align-items: center;
 	}
 	.info-box-one,.info-box-two {
-		min-height: 400px;
+		padding: 100px 50px;
 	}
 }
